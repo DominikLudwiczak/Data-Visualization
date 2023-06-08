@@ -1,0 +1,13 @@
+name: shiny-enterprise-dashboard
+title: shiny-enterprise-dashboard
+username:
+account: dominikludwiczak
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 9202441
+bundleId: 7273878
+url: https://dominikludwiczak.shinyapps.io/shiny-enterprise-dashboard/
+when: 1685284813.66904
+lastSyncTime: 1685284813.66906
+asMultiple: FALSE
+asStatic: FALSE
