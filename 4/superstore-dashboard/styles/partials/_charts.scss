@@ -1,0 +1,48 @@
+.pie-chart {
+  grid-column: 1 / 1;
+  grid-row: span 2;
+
+  @include mediaFrom($breakSm) {
+    grid-column: 2 / 2;
+  }
+
+  @include mediaFrom($breakLg) {
+    grid-column: 1 / 2;
+  }
+  
+  .pie-chart-container {
+    padding: rem(5px);
+  }
+}
+
+.chart-container {
+  padding: rem(40px) rem(10px) rem(10px);
+} 
+
+.chart-breakdown {
+  @include mediaFrom($breakLg) {
+    grid-column: 1 / 2;
+  } 
+}
+
+.chart-shipping {
+  @include mediaFrom($breakLg) {
+    grid-column: 2 / 2;  
+  }
+}
+
+.chart-map {
+  grid-row: span 2;
+
+  @include mediaFrom($breakLg) {
+    grid-column: span 2;
+  }
+}
+
+.datatable {
+  grid-column: 1 / 1;
+
+  @include mediaFrom($breakLg) {
+    grid-column: 1 / 2;
+  }
+}
